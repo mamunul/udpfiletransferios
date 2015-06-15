@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C054CBC1B104C3000B2A6E6 /* DataFormat.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C054CBB1B104C3000B2A6E6 /* DataFormat.mm */; };
+		0C33F9A81B105EC300806839 /* DataProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C33F9A71B105EC300806839 /* DataProcessor.m */; };
 		0C6E8B351B0C9ABB00370728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E8B341B0C9ABB00370728 /* main.m */; };
 		0C6E8B381B0C9ABB00370728 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E8B371B0C9ABB00370728 /* AppDelegate.m */; };
-		0C6E8B3B1B0C9ABB00370728 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E8B3A1B0C9ABB00370728 /* ViewController.m */; };
+		0C6E8B3B1B0C9ABB00370728 /* TransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E8B3A1B0C9ABB00370728 /* TransferViewController.m */; };
 		0C6E8B3E1B0C9ABB00370728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6E8B3C1B0C9ABB00370728 /* Main.storyboard */; };
 		0C6E8B401B0C9ABB00370728 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C6E8B3F1B0C9ABB00370728 /* Images.xcassets */; };
 		0C6E8B431B0C9ABB00370728 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C6E8B411B0C9ABB00370728 /* LaunchScreen.xib */; };
 		0C6E8B4F1B0C9ABB00370728 /* iTransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E8B4E1B0C9ABB00370728 /* iTransferTests.m */; };
+		0C6E8B5A1B0C9C6C00370728 /* UDPProtocol.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E8B591B0C9C6C00370728 /* UDPProtocol.mm */; };
+		0C6E8B5C1B0C9D2100370728 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6E8B5B1B0C9D2100370728 /* CFNetwork.framework */; };
+		0C6E8B5E1B0CA11E00370728 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6E8B5D1B0CA11E00370728 /* CoreFoundation.framework */; };
+		0CA0FEB91B24608100E3E25D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA0FEB81B24608100E3E25D /* Foundation.framework */; };
+		0CA0FEBB1B24608B00E3E25D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA0FEBA1B24608B00E3E25D /* UIKit.framework */; };
+		0CA0FEBD1B24609700E3E25D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA0FEBC1B24609700E3E25D /* CoreGraphics.framework */; };
+		0CCD6EDD1B106394006E6BA4 /* StatusAsyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD6EDC1B106394006E6BA4 /* StatusAsyncManager.m */; };
+		0CCD6EE01B1065C0006E6BA4 /* DataAsyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD6EDF1B1065C0006E6BA4 /* DataAsyncManager.m */; };
+		0CCD6EE31B10749F006E6BA4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD6EE21B10749F006E6BA4 /* User.m */; };
+		0CEE6D181B0DE7A2001FD876 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEE6D171B0DE7A2001FD876 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +39,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C054CBA1B104C3000B2A6E6 /* DataFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFormat.h; sourceTree = "<group>"; };
+		0C054CBB1B104C3000B2A6E6 /* DataFormat.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DataFormat.mm; sourceTree = "<group>"; };
+		0C33F9A61B105EC300806839 /* DataProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataProcessor.h; sourceTree = "<group>"; };
+		0C33F9A71B105EC300806839 /* DataProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataProcessor.m; sourceTree = "<group>"; };
 		0C6E8B2F1B0C9ABB00370728 /* iTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C6E8B331B0C9ABB00370728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C6E8B341B0C9ABB00370728 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C6E8B361B0C9ABB00370728 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C6E8B371B0C9ABB00370728 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0C6E8B391B0C9ABB00370728 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0C6E8B3A1B0C9ABB00370728 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C6E8B391B0C9ABB00370728 /* TransferViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransferViewController.h; sourceTree = "<group>"; };
+		0C6E8B3A1B0C9ABB00370728 /* TransferViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransferViewController.m; sourceTree = "<group>"; };
 		0C6E8B3D1B0C9ABB00370728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C6E8B3F1B0C9ABB00370728 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0C6E8B421B0C9ABB00370728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0C6E8B481B0C9ABB00370728 /* iTransferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTransferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C6E8B4D1B0C9ABB00370728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C6E8B4E1B0C9ABB00370728 /* iTransferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTransferTests.m; sourceTree = "<group>"; };
+		0C6E8B581B0C9C6C00370728 /* UDPProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPProtocol.h; sourceTree = "<group>"; };
+		0C6E8B591B0C9C6C00370728 /* UDPProtocol.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UDPProtocol.mm; sourceTree = "<group>"; };
+		0C6E8B5B1B0C9D2100370728 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0C6E8B5D1B0CA11E00370728 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0CA0FEB81B24608100E3E25D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0CA0FEBA1B24608B00E3E25D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0CA0FEBC1B24609700E3E25D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0CCD6EDB1B106394006E6BA4 /* StatusAsyncManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusAsyncManager.h; sourceTree = "<group>"; };
+		0CCD6EDC1B106394006E6BA4 /* StatusAsyncManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusAsyncManager.m; sourceTree = "<group>"; };
+		0CCD6EDE1B1065C0006E6BA4 /* DataAsyncManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAsyncManager.h; sourceTree = "<group>"; };
+		0CCD6EDF1B1065C0006E6BA4 /* DataAsyncManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAsyncManager.m; sourceTree = "<group>"; };
+		0CCD6EE11B10749F006E6BA4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		0CCD6EE21B10749F006E6BA4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		0CEE6D161B0DE7A2001FD876 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0CEE6D171B0DE7A2001FD876 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA0FEBD1B24609700E3E25D /* CoreGraphics.framework in Frameworks */,
+				0CA0FEBB1B24608B00E3E25D /* UIKit.framework in Frameworks */,
+				0CA0FEB91B24608100E3E25D /* Foundation.framework in Frameworks */,
+				0C6E8B5E1B0CA11E00370728 /* CoreFoundation.framework in Frameworks */,
+				0C6E8B5C1B0C9D2100370728 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +99,11 @@
 		0C6E8B261B0C9ABB00370728 = {
 			isa = PBXGroup;
 			children = (
+				0CA0FEBC1B24609700E3E25D /* CoreGraphics.framework */,
+				0CA0FEBA1B24608B00E3E25D /* UIKit.framework */,
+				0CA0FEB81B24608100E3E25D /* Foundation.framework */,
+				0C6E8B5D1B0CA11E00370728 /* CoreFoundation.framework */,
+				0C6E8B5B1B0C9D2100370728 /* CFNetwork.framework */,
 				0C6E8B311B0C9ABB00370728 /* iTransfer */,
 				0C6E8B4B1B0C9ABB00370728 /* iTransferTests */,
 				0C6E8B301B0C9ABB00370728 /* Products */,
@@ -83,12 +124,26 @@
 			children = (
 				0C6E8B361B0C9ABB00370728 /* AppDelegate.h */,
 				0C6E8B371B0C9ABB00370728 /* AppDelegate.m */,
-				0C6E8B391B0C9ABB00370728 /* ViewController.h */,
-				0C6E8B3A1B0C9ABB00370728 /* ViewController.m */,
+				0C6E8B391B0C9ABB00370728 /* TransferViewController.h */,
+				0C6E8B3A1B0C9ABB00370728 /* TransferViewController.m */,
 				0C6E8B3C1B0C9ABB00370728 /* Main.storyboard */,
 				0C6E8B3F1B0C9ABB00370728 /* Images.xcassets */,
 				0C6E8B411B0C9ABB00370728 /* LaunchScreen.xib */,
 				0C6E8B321B0C9ABB00370728 /* Supporting Files */,
+				0C6E8B581B0C9C6C00370728 /* UDPProtocol.h */,
+				0C6E8B591B0C9C6C00370728 /* UDPProtocol.mm */,
+				0CEE6D161B0DE7A2001FD876 /* MainViewController.h */,
+				0CEE6D171B0DE7A2001FD876 /* MainViewController.m */,
+				0C054CBA1B104C3000B2A6E6 /* DataFormat.h */,
+				0C054CBB1B104C3000B2A6E6 /* DataFormat.mm */,
+				0C33F9A61B105EC300806839 /* DataProcessor.h */,
+				0C33F9A71B105EC300806839 /* DataProcessor.m */,
+				0CCD6EDB1B106394006E6BA4 /* StatusAsyncManager.h */,
+				0CCD6EDC1B106394006E6BA4 /* StatusAsyncManager.m */,
+				0CCD6EDE1B1065C0006E6BA4 /* DataAsyncManager.h */,
+				0CCD6EDF1B1065C0006E6BA4 /* DataAsyncManager.m */,
+				0CCD6EE11B10749F006E6BA4 /* User.h */,
+				0CCD6EE21B10749F006E6BA4 /* User.m */,
 			);
 			path = iTransfer;
 			sourceTree = "<group>";
@@ -219,9 +274,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C6E8B3B1B0C9ABB00370728 /* ViewController.m in Sources */,
+				0CCD6EE31B10749F006E6BA4 /* User.m in Sources */,
+				0C6E8B3B1B0C9ABB00370728 /* TransferViewController.m in Sources */,
+				0C33F9A81B105EC300806839 /* DataProcessor.m in Sources */,
+				0CCD6EDD1B106394006E6BA4 /* StatusAsyncManager.m in Sources */,
 				0C6E8B381B0C9ABB00370728 /* AppDelegate.m in Sources */,
+				0CCD6EE01B1065C0006E6BA4 /* DataAsyncManager.m in Sources */,
 				0C6E8B351B0C9ABB00370728 /* main.m in Sources */,
+				0CEE6D181B0DE7A2001FD876 /* MainViewController.m in Sources */,
+				0C054CBC1B104C3000B2A6E6 /* DataFormat.mm in Sources */,
+				0C6E8B5A1B0C9C6C00370728 /* UDPProtocol.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +408,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iTransfer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iTransfer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +478,7 @@
 				0C6E8B541B0C9ABB00370728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C6E8B551B0C9ABB00370728 /* Build configuration list for PBXNativeTarget "iTransferTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +487,7 @@
 				0C6E8B571B0C9ABB00370728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
